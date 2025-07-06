@@ -61,15 +61,33 @@ coordinates=[(4,5),(8,6),(7,3)]
 print(coordinates[2])
 
 
-#FUCTIONS:-
+##FUCTIONS:-
+#1)
 def say_hi():
     print("Hello User!")
 print("Hi! Arya.")
 say_hi()
 print("How are you ?")
-
+#2)
 def say_hi(name,age):
     print(f"Hello, {name} .Your age is {age}years old.")
 
 say_hi("Arya","19")
 say_hi("Laxmi","17")
+
+## return statement:
+def cube(num):
+    return num*num*num
+
+print(cube(4))
+print(cube(3))
+
+#If,elif and else
+#1)
+is_female=True
+is_tall=True
+
+if is_female:
+    print("You are a female.")
+else:
+    print("Your are not female")
