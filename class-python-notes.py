@@ -85,9 +85,25 @@ print(cube(3))
 #If,elif and else
 #1)
 is_female=True
-is_tall=True
+is_tall=False
 
-if is_female:
-    print("You are a female.")
+if is_female and is_tall:
+    print("You are a female and tall.")
 else:
-    print("Your are not female")
+    if is_tall:
+     print("You are tall , you are not a female.")
+    elif is_female:
+        print("You are female but not tall.")
+    else:
+        print("You neither female nor your tall .")
+
+## If statement and comparisions:
+def max_num(num1,num2,num3):
+    if num1>=num2 and num1>=num3:
+        return num1
+    elif num2>=num1 and num1>=num3:
+        return num2
+    else:
+        return num3
+    
+print(max_num(4,5,3))
