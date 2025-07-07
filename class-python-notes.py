@@ -162,3 +162,23 @@ if out_of_guesses==True:
  print("You lose!")
 else:
   print("You Win!")
+##For LOOP
+#1)
+for letter in "apple" :
+   print(letter)
+#2)
+for x in range(1,11):
+   print(x)
+#3)
+for x in reversed(range(1,11)):
+   print(x)
+#4)
+for x in range(1,11,-1):
+   print(x)
+#5)
+for x in  range(1,11,2):
+   print(x)
+#6)
+friends=["ken","mina","jennie"]
+for friend in friends:
+   print(friend)
