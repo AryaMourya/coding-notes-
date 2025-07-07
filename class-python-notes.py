@@ -180,5 +180,10 @@ for x in  range(1,11,2):
    print(x)
 #6)
 friends=["ken","mina","jennie"]
-for friend in friends:
-   print(friend)
+for name in friends:
+   print(name)
+#7)good example
+friends=["ken","mina","jennie"]
+for index in range(len(friends)):
+   print(index)
+   print(friends[index])
