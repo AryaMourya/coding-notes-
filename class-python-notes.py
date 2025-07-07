@@ -106,4 +106,47 @@ def max_num(num1,num2,num3):
     else:
         return num3
     
-print(max_num(4,5,3))
+print(max_num(4,4,4))
+
+##DICTIONARIES:-
+Monthly_Conversions={
+    "Jan":"January",
+    "Feb":"February",
+    "Mar":"March",
+    "Apr":"April",
+    "May":"May",
+    "Jun":"June",
+    "July":"July",
+    "Aug":"August",
+    "Sep":"September",
+    "Oct":"October",
+    "Nov":"November",
+    "Dec":"December"
+}
+print(Monthly_Conversions["Nov"])
+#OR
+print(Monthly_Conversions.get("Apr"))
+print(Monthly_Conversions.get("Luv,Not a valid key."))
+
+##While loop:
+i=1
+while i <=10:
+    print(i)
+    i += 1
+
+print("Run this loop")
+
+# Guessing Game:-
+secret_word = "giraffe"
+guess =""
+hint=input("DO you want hints?")
+if hint=="Yes":
+    print ("wild animal" \
+    "eat grass" \
+    "has long neck")
+elif hint=="No":
+    print("OK!")
+while guess !=secret_word:
+    guess = input("Enter guess: ")
+
+print("You win!")
