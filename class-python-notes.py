@@ -221,3 +221,25 @@ for row in number_grid:
       print(col)
 
 ###Try/Except
+number = int(input("Enter the number:"))
+print(number)
+'''if we enter wrong variable and after running the code it shows error .
+To overcome this problem we use Try/Except '''
+
+try:
+    number = int(input("Enter the number:"))
+    print(number)
+except:
+   print("Invalid Input")
+try:
+   value=10/0
+   number = int(input("Enter the number:"))
+   print(number)
+except ZeroDivisionError:
+   print("Divided by zero ")
+except ValueError:
+   print("Invalid Input")
+except ZeroDivisionError as err:
+   print(err)
+
+###READING FILES###
