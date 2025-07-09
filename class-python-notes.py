@@ -149,11 +149,11 @@ while guess !=secret_word and not out_of_guesses:
       guess_count+=1
       if not hint_taken and guess !=secret_word:
          hint=input("DO you want hints? (Yes/No):")
-         if hint.lower()=="Yes":
+         if hint=="Yes":
            print ("wild animal," \
                    "eat grass," \
                    "has long neck")
-         elif hint.lower()=="No":
+         elif hint=="No":
               print("OK!")
     else:
         out_of_guesses=True
@@ -187,3 +187,37 @@ friends=["ken","mina","jennie"]
 for index in range(len(friends)):
    print(index)
    print(friends[index])
+#8)
+for index in range(5):
+   if index== 0:
+      print("First Iteration")
+   else:
+      print("Not First Iteration ")
+## Exponent functions:-
+def raise_to_power(base_num,pow_num):
+   result = 1
+   for index in range(pow_num):
+      result= result* base_num
+   return result
+
+print(raise_to_power(3 , 2))
+
+###2D lists and nested loop :-
+number_grid =[
+   [1,2,3],
+   [4,5,6],
+   [7,8,9],
+   [0]
+]
+print(number_grid[0][0])
+print(number_grid[1])
+#Nested loop:-
+#1)
+for row in number_grid:
+   print(row)
+#2)
+for row in number_grid:
+   for col in row:
+      print(col)
+
+###Try/Except
