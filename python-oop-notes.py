@@ -24,7 +24,7 @@ print(emp2.email)
 '''to make these setup automatic we create the employee we are going to use special method of
  init in this'''
 
-def __init__(self,first,last,):
+def __init__(self,first,last,pay):
     self.first = first
     self.last = last
     self.pay = pay
