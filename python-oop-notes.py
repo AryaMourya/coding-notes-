@@ -21,3 +21,11 @@ emp2.pay = "$4500"
 
 print(emp1.email)
 print(emp2.email)
+'''to make these setup automatic we create the employee we are going to use special method of
+ init in this'''
+
+def __init__(self,first,last,):
+    self.first = first
+    self.last = last
+    self.pay = pay
+    self.email = first + '-' + last + "compay.com"
