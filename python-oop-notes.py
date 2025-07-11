@@ -1,13 +1,23 @@
-class Person:
-    name = "Arya"
-    occupation = "Student"
-    gender = "female"
-    def info(self):
-        print(f"{self.name} is a {self.occupation} .")
+# Object Orinated Programming
 
-a = Person()
-a.name = "Anu"
-a.occupation = "Lawyer"
-a.gender = "female"
+class employee:   #class
+    pass
+emp1 = employee()
+emp2 = employee()   
+''' this above given employe 1 and 2 are class instance'''
 
-print(a.name,a.gender,a.occupation)
+print(emp1)
+print(emp2)
+
+emp1.first = "Aru"
+emp1.last = "anna"
+emp1.email = "aru01@gmail.com"
+emp1.pay = "$5000"
+
+emp2.first = "elsa"
+emp2.last = "anna"
+emp2.email = "elsaanna34@gmail.com"
+emp2.pay = "$4500"
+
+print(emp1.email)
+print(emp2.email)
