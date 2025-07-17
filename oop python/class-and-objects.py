@@ -27,9 +27,22 @@ print(dog1.name)
 print(dog1.breed)
 print(dog1.Owner.name)
 
-
 Owner2 = Owner("Simmi","abcd road","999993447")
 dog2 = Dog("Freya","ScoOwner1ttish Terrior")
 dog2.bark()
 print(dog2.name)
 print(dog2.breed)
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name 
+        self.age = age
+
+    def greet(self):    #here we give behaviour or a method to each given person to greet.
+        print(f"Hi, My name is {self.name} and I am {self.age}years old.")
+
+Person1 = Person("Ginger",40)
+Person1.greet()
+
+Person2 = Person("Garly",32)
+Person2.greet()
