@@ -1,4 +1,4 @@
-
+    
     .subscribe-button {
         background-color: rgb(197, 63, 63);
         color: white;
@@ -28,9 +28,7 @@
         height: 36px;   
         cursor: pointer;
         transition: background-color 0.15s,
-        
-        
-    }
+        }
 
     .join-button:hover {
         background-color: rgb(15, 131, 255);
