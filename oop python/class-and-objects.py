@@ -1,3 +1,5 @@
+'''( CLASS  and   OBJECTS )'''
+
 name = "Arya"
 age = 19
 
@@ -31,7 +33,7 @@ dog1 = Dog("Bruce","Pitbull",Owner1)
 dog1.bark()
 Owner1.introduction(dog1) # here Owner1 is an object (i.e., instance of owner)
                           #.introduction( ) is a method (i.e., function defined inside the class)
-                          #(dog1 is athe input you pass to that method so it can talk about the dog)
+                          #(dog1 is athe input you pass to that method so it can talk about the dog )
 print(dog1.name)
 print(dog1.breed)
 print(dog1.Owner.name)
