@@ -6,15 +6,40 @@
        </title>
        <style>
         .thumbnail{
+            width: 300px; 
+            display: block;   
+        }
+        .Searchbar{
             width: 300px;
-            height: 300px;
-            object-fit: contain;
-            object-position: center;    
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding-left: 10px;
+            margin-bottom: 20px;
+          
+        }
+        .video-tittle{
+           width: 300px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .video-author,
+        .video-views{
+            font-size: 13px;
+            color: gray;
+            display: block;
         }
        </style>
     </head>
     <body>
-      <img class = "thumbnail"src="thumbnail for youtube page/thumbnail-1.webp">
-      <input type="text">
+      <input class="Searchbar" type="text"placeholder="Search">
+      <div><img class = "thumbnail"src="thumbnail for youtube page/thumbnail-1.webp"></div>
+
+      <p class="video-tittle">Talking Tech and AI with Google CEO Sundar 
+        Pichai!</p>
+      <div class="video-author">
+        Marques Brownies</div>
+       <div class="video-views">
+        3.4M views &#183; 6 months ago</div>
     </body>
 </html>
