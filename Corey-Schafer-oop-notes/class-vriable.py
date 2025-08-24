@@ -11,16 +11,21 @@ class Employee:
         return '{} {}'.format(self.first.capitalize(),self.last.capitalize())
     
     def raise_applied(self):
-        self.pay ="Rs" + str((int(self.pay * self.raise_amount)))
-        # self.pay ="Rs" + str((int(self.pay * Employee.raise_amount)))      
+        self.pay =int(self.pay * self.raise_amount)
+        # self.pay =int(self.pay * Employee.raise_amount)     
 
 Employee_1 = Employee("arya","mourya",56000)
 Employee_2 = Employee("Dona","rona",8900)
 
+print(Employee_1.__dict__)
+
 print(Employee.raise_amount)
-print(Employee_1.pay)
-Employee_1.raise_applied()            
-print(Employee_1.pay)                  
+print(Employee_1.raise_amount)
+#print(Employee.raise_amount)
+#print(Employee_1.pay)
+#Employee_1.raise_applied()            
+#print(Employee_1.pay) 
+
 #for the need to raise the pay of employee_1 and also
  #to apply the raise amount in employee_2 pay we need to write
 # Employee_2.raise_applied() bt this may not be make our work easy so to make it easy we can use class variable
