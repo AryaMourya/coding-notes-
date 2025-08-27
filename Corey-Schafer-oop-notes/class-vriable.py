@@ -21,6 +21,11 @@ print(Employee_1.__dict__)
 
 print(Employee.raise_amount)
 print(Employee_1.raise_amount)
+
+Employee_1.raise_amount = 1.05
+
+print(Employee.raise_amount)
+print(Employee_1.)
 #print(Employee.raise_amount)
 #print(Employee_1.pay)
 #Employee_1.raise_applied()            
