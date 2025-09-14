@@ -1,65 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>
-        YouTube.com Clone
-       </title>
-       <style>
-        .thumbnail{
-            width: 300px; 
-             
-        }
-        .Searchbar{
-            width: 300px;
-            height: 30px;
-            border-radius: 5px;
-            border: 1px solid gray;
-            padding-left: 10px;
-            margin-bottom: 20px;
-            display: block;
-          
-        }
-        .video-tittle{
-           width: 300px;
-            font-size: 20px;
-            font-weight: bold;
-          
-        }
-        .video-author,
-        .video-views{
-            font-size: 13px;
-            color: gray;
-            
-        }
-        .div-example{
-            display: inline-block;
-        }
-        .thumbnail-2{
-            width: 300px;
-        }
-        
-       </style>
-    </head>
-    <body>
-      <input class="Searchbar" type="text"placeholder="Search">
-    
-        <div class="div-example">
-          <img class = "thumbnail"src="thumbnail for youtube page/thumbnail-1.webp">
-         <p class="video-tittle">Talking Tech and AI with Google CEO Sundar 
-         Pichai!</p>
-         <p class="video-author">
-         Marques Brownies</p>
-         <p class="video-views">
-         3.4M views &#183; 6 months ago</p>  
-        </div>
-        <div class="div-example">
-          <img class = "thumbnail-2"src="thumbnail for youtube page/thumbnail-2.webp">
-         <p class="video-tittle">
-         Try not to laugh challange #9</p>
-         <p class="video-author">
-         Marques Brownies</p>
-         <p class="video-views">
-         3.4M views &#183; 6 months ago</p>  
-        </div>
-    </body>
+  <head>
+    <title>YouTube.com Clone</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+
+      .search-bar {
+        display: block;
+      }
+
+      .video-title {
+        width: 300px;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="video-preview">
+      <img class="thumbnail =" src="thumbnail for youtube page/thumbnail-1.webp">
+
+      <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+      </p>
+      <p class="video-author">
+        Marques Brownlee
+      </p>
+      <p class="video-stats">
+        3.4M views &#183; 6 months ago
+      </p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail " src="thumbnail for youtube page/thumbnail-2.webp">
+      <p class="video-title">
+        Try Not To Laugh Challenge #9
+      </p>
+      <p class="video-author">
+        Markiplier
+      </p>
+      <p class="video-stats">
+        19M views &#183; 4 years ago
+      </p>
+    </div>
+  </body>
 </html>
