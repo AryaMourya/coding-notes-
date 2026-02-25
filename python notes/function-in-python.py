@@ -25,3 +25,11 @@ inspire()
 def good_morning():
     print("Good Morning,Saumya!")
 
+good_morning()
+good_morning()
+#4
+def learn():
+    print("function")
+    print("dictionary")
+    print("tuples")
+learn()
