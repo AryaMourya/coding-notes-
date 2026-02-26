@@ -41,3 +41,10 @@ learn()
 def greet(name):
     print("Hello",name)
 greet("Arya Mourya")
+##2
+def average(a,b):
+    average_Value=(a+b)/2
+    print(average_Value)
+average(5,10)
+average(3,7)
+average(5,9)
