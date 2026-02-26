@@ -67,6 +67,6 @@ add_numbers(9,5)
 
 """Default argument """
 def greet(name="Saumya"):
-    ptint("Hello",name)
+    print("Hello",name)
 greet()
 greet("Riya")
