@@ -30,7 +30,7 @@ def good_morning():
 good_morning()
 good_morning()
 
-#4
+#4 (Simple function calling with no arguments)
 def learn():
     print("function")
     print("dictionary")
