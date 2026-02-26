@@ -54,8 +54,19 @@ def add(a,b):
     print("Sum =",Sum)
 add(5,7)
 
-
+"""PRACTICE QUESTIONS"""
 #1
 def show_age(name, age):
     print(f"{name} is {age}years old.")
 show_age("Arya Mourya",16)
+#2
+def add_numbers(a , b):
+    print(f"sum = {a+b}")
+    print(f"difference = {a-b}")
+add_numbers(9,5)
+
+"""Default argument """
+def greet(name="Saumya"):
+    ptint("Hello",name)
+greet()
+greet("Riya")
