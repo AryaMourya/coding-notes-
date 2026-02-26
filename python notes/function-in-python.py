@@ -77,7 +77,15 @@ def add(a,b):
     return a+b 
 result = add(10,20)
 print("Result =",result)
-#practice question
+#practice question:
+##1.
 def square(num=10):
     return num**2
 print(square(3))
+##2.
+
+def multiply(a=10, b=10):
+    return a*b
+
+result= multiply(5,10)
+print(result)
