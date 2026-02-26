@@ -48,3 +48,14 @@ def average(a,b):
 average(5,10)
 average(3,7)
 average(5,9)
+##3
+def add(a,b):
+    Sum =(a+b)
+    print("Sum =",Sum)
+    add(5,7)
+
+
+#1
+def show_age(name, age):
+    print(f"{name} is {age}years old.")
+    show_age("Arya Mourya",16)
