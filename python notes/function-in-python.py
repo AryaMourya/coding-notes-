@@ -56,9 +56,10 @@ add(5,7)
 
 """PRACTICE QUESTIONS"""
 #1
-def show_age(name, age):
+def show_age(name="laxmi", age=18):
     print(f"{name} is {age}years old.")
 show_age("Arya Mourya",16)
+show_age()
 #2
 def add_numbers(a , b):
     print(f"sum = {a+b}")
@@ -66,7 +67,17 @@ def add_numbers(a , b):
 add_numbers(9,5)
 
 """Default argument """
+#a
 def greet(name="Saumya"):
     print("Hello",name)
 greet()
 greet("Riya")
+"""Return statements"""
+def add(a,b):
+    return a+b 
+result = add(10,20)
+print("Result =",result)
+#practice question
+def square(num=10):
+    return num**2
+print(square(3))
