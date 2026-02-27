@@ -120,3 +120,9 @@ def function(userInput):
 vowels,consonants=function("Arya Mourya")
 
 print(vowels,consonants)
+"""Practice questions """
+def message(text="Keep Learning"):
+    print(text)
+    message()
+    message("done learning")
+    
