@@ -89,3 +89,25 @@ def multiply(a=10, b=10):
 
 result= multiply(5,10)
 print(result)
+#
+def multiply(a=10,b=10):
+    return a*b
+print(multiply(5,5))
+
+"""Practice question """
+#1
+def square(num):
+    return num**2
+print(square(2))
+#2
+def function(userInput):
+    #define vowels
+    vowels = "aeiouAEIOU"
+
+    countVowels=0
+    countConsonants=0
+    for eachChar in userInput:
+       if(eachChar.isalpha()): #will check that is all character is alphabate
+           if(eachChar in vowels): #will check that is all cha
+               countVowels=countVowels+1
+
