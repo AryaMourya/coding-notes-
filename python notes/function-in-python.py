@@ -108,6 +108,8 @@ def function(userInput):
     countConsonants=0
     for eachChar in userInput:
        if(eachChar.isalpha()): #will check that is all character is alphabate
-           if(eachChar in vowels): #will check that is all cha
-               countVowels=countVowels+1
+           if(eachChar in vowels): #will check that is all character is volume
+               countVowels=countVowels+1 #
+           else:
+               countConsonants=countConsonants+1
 
