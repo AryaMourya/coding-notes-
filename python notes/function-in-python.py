@@ -134,3 +134,5 @@ def show():
 
 show()
 print("Outside function:",x)
+
+"""PRACTICE QUESTIONS"""
