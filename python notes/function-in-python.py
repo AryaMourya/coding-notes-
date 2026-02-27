@@ -106,10 +106,17 @@ def function(userInput):
 
     countVowels=0
     countConsonants=0
+
     for eachChar in userInput:
        if(eachChar.isalpha()): #will check that is all character is alphabate
            if(eachChar in vowels): #will check that is all character is volume
                countVowels=countVowels+1 #
            else:
-               countConsonants=countConsonants+1
+               countConsonants+=1
+    
+    return countVowels,countConsonants
 
+#Function Call
+vowels,consonants=function("Arya Mourya")
+
+print(vowels,consonants)
