@@ -27,3 +27,16 @@ laptop1.brand="Lenovo"
 
 laptop2=laptop()
 laptop2.brand="hp"
+
+print("Lptop Brand:",laptop1.brand)
+print("Laptop brand:",laptop2.brand)
+
+#3
+class car:
+    brand="scorpio"
+    print("brand:",car.brand)
+
+class student:
+    college="XYZ college"
+    def __init__(self,name):
+        self.name=name
