@@ -40,3 +40,17 @@ class student:
     college="XYZ college"
     def __init__(self,name):
         self.name=name
+
+s1=student("Saumya")
+print("Name:",s1.name)  
+s2=student("Rohit")
+print("Name:",s2.name)
+
+"""PRACTICE QUESTION"""
+#1
+class FoodItem:
+    category = "Snackes"
+    def __init__(self, name):
+        self.name = name
+
+item-1 =FoodItem("Samosa")
