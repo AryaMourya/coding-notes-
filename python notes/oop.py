@@ -50,7 +50,12 @@ print("Name:",s2.name)
 #1
 class FoodItem:
     category = "Snackes"
+
     def __init__(self, name):
         self.name = name
 
-item-1 =FoodItem("Samosa")
+item1 =FoodItem("Samosa")
+print("Category:",item1.name)
+
+item2=FoodItem("Laddoo")
+print("Category:",item2.name)
