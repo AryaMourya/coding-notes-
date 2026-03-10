@@ -68,7 +68,8 @@ class Student:
         self.course=course
 
 student1=Student("Arya","Btech")
-print("Student1",student1.name,student1.course)
+print("Student1",student1.name)
+print("Student1 Course-",student1.course)
 
 student2=Student("Ankit","Msc")
 print("Student2",student2.name,student2.course)
