@@ -59,3 +59,16 @@ print("Category:",item1.name)
 
 item2=FoodItem("Laddoo")
 print("Category:",item2.name)
+
+class Student:
+    schoolName= "Notre Dame Academy"
+
+    def __init__(self,name,course):
+        self.name=name
+        self.course=course
+
+student1=Student("Arya","Btech")
+print("Student1",student1.name,student1.course)
+
+student2=Student("Ankit","Msc")
+print("Student2",student2.name,student2.course)
