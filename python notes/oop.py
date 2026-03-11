@@ -60,16 +60,32 @@ print("Category:",item1.name)
 item2=FoodItem("Laddoo")
 print("Category:",item2.name)
 
+#class Student:
+    #schoolName= "Notre Dame Academy"
+
+    #def __init__(self,name,course):
+        #self.name=name
+        #self.course=course
+
+#student1=Student("Arya","Btech")
+#print("Student1",student1.name)
+#print("Student1 Course-",student1.course)
+
+#student2=Student("Ankit","Msc")
+#print("Student2",student2.name,student2.course)
+
+##PQ## Create class student that takes 3 marks and has a method average()
+
 class Student:
-    schoolName= "Notre Dame Academy"
-
-    def __init__(self,name,course):
+    def __init__(self,name,listOfMarks):
         self.name=name
-        self.course=course
+        self.listOfMarks=listOfMarks
+    
+    def average(self):
+        for eachvalue in self.listOfMarks:
+            sum=sum+eachvalue
 
-student1=Student("Arya","Btech")
-print("Student1",student1.name)
-print("Student1 Course-",student1.course)
+        average= sum/3
+        print("Average is",average)
 
-student2=Student("Ankit","Msc")
-print("Student2",student2.name,student2.course)
+student1=Student("Aditya",[90,98,99])
