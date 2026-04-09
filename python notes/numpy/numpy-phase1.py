@@ -14,5 +14,10 @@ print("2D array:",arr_2d)
 py_list = [1,2,3]
 print("python list multiplication ", py_list * 2)
 
-np_array = np.array([1,2,3])
+np_array = np.array([1,2,3]) #element wise multiplication #
 print("python list multiplication ", np_array * 2)
+
+import time
+start = time.time()
+py_list = [1*2 for i in range(1000000) ]
+print(time)
