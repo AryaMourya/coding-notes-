@@ -16,4 +16,5 @@ print(val.typecode)
 val.reverse()
 for i in range(0,len(val)):
     print(val[i], end=" ")
-    
+
+
