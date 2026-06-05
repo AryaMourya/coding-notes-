@@ -1,6 +1,6 @@
-import array as arr
+from array import *
 
-val = arr.array('i',[1,2,3,4,5,6])
+val = array('i',[1,2,3,4,5,6])
 
 for i in range(0,6):
     print(val[i] , end=" ")
@@ -18,3 +18,7 @@ for i in range(0,len(val)):
     print(val[i], end=" ")
 
 
+CopyArray = array(val.typecode ,(x for x in val))
+
+for i in range(0, len(val)):
+    print(CopyArray[i], end=" ")
