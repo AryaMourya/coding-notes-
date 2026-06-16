@@ -32,3 +32,8 @@ r = np.arange(1,11).reshape(5,2)
 print(r)
 
 #np.ones and np.zeroes
+print(np.ones((3,4)))
+print(np.zeros((2,3)))
+
+#np.random
+print(np.random.random((2,3)))
