@@ -21,4 +21,14 @@ print(y)
 print(k)
 
 
-## np.range
+## np.arange
+range = np.arange(1,11)
+print(range)
+R = np.arange(1,11,2)
+print(R)
+
+#with reshape
+r = np.arange(1,11).reshape(5,2)
+print(r)
+
+#np.ones and np.zeroes
