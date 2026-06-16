@@ -37,3 +37,6 @@ print(np.zeros((2,3)))
 
 #np.random
 print(np.random.random((2,3)))
+
+#np.linspace
+print(np.linspace(-10,10,3))
