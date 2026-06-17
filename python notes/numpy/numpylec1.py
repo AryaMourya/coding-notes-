@@ -44,3 +44,17 @@ print(np.linspace(-5,5,15))
 
 #np.identity
 print(np.identity(2))
+
+### Array Attributes
+a1 =np.arange(10)
+a2 =np.arange(12,dtype=float).reshape(3,4)
+a3 =np.arange(8).reshape(2,2,2)
+
+
+#ndim( tell the dimension of array)
+print(a2.ndim)
+print(a3.ndim)
+
+#shape
+print(a1.shape)
+print(a2.shape)
