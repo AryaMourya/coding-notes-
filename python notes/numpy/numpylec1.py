@@ -58,3 +58,9 @@ print(a3.ndim)
 #shape
 print(a1.shape)
 print(a2.shape)
+print(a3.shape)
+
+#size
+print(a1.size)
+print(a2.size)
+print(a3.size)
