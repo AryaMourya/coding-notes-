@@ -41,3 +41,6 @@ print(np.random.random((2,3)))
 #np.linspace
 print(np.linspace(-10,10,3))
 print(np.linspace(-5,5,15))
+
+#np.identity
+print(np.identity(2))
