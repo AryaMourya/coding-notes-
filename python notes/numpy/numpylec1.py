@@ -64,3 +64,5 @@ print(a3.shape)
 print(a1.size)
 print(a2.size)
 print(a3.size)
+
+#itemsize
