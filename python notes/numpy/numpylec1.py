@@ -66,3 +66,70 @@ print(a2.size)
 print(a3.size)
 
 #itemsize
+print(a2.itemsize)
+
+#dtype
+print(a1.dtype)
+print(a2.dtype)
+print(a3.dtype)
+
+#astype
+print(a3.astype(np.int32))
+
+### SCALAR OPERATIONS ###
+""" Arthimetic operation"""
+print(a1 + 2)
+print(a2 * 3)
+
+## relational
+
+#
+print(a2 + a2)
+
+a4 = np.random.random((3,3))
+a4 = np.round(a4 * 100)
+print(a4)
+
+"""max/min/sum/prod"""
+print(np.max(a4))
+print(np.min(a4))
+print(np.sum(a4))
+print(np.prod(a4,axis=0))
+
+##Statical operation
+"""mean/median/std/var"""
+print(np.mean(a4))
+print(np.median(a4))
+print(np.std(a4))
+print(np.var(a4))
+
+
+##DOT Product##
+a2= np.arange(12).reshape(3,4)
+a3= np.arange(12,24).reshape(4,3)
+print(np.dot(a2,a3))
+
+#log and exponents
+print(np.log(a4))
+print(np.exp(a4))
+
+# Round/floor/ceil
+array5=np.round(np.random.random((2,3))*100)
+print(array5)
+
+#Indexing
+a5 = np.arange(8).reshape(2,2,2)
+print(a5)
+print(a5[1,1,0])
+
+#Slicing
+"""slicing for 1D array"""
+print(a1[2:5])
+a6= np.arange(12).reshape(3,4)
+"""slicing  for 2D array"""
+print(a6)
+print(a6[0,:])
+print(a6[:,2])
+print(a6[1:,1:3])
+print(a6[::2,::3])
+"""slicing for 3D array"""
