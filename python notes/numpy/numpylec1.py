@@ -149,3 +149,24 @@ for i in a5:
 
 for i in np.nditer(a5):
     print(i)
+
+
+#Transpose
+print(np.transpose(a6))
+print(a6.T)
+
+#Ravel
+print(a6.ravel())
+
+#Stacking
+"""horizontal stacking"""
+array1 = np.arange(12).reshape(3,4)
+array2 = np.arange(12,24).reshape(3,4)
+print(np.hstack((array1,array2)))
+"""vertical stacking"""
+print(np.vstack((array1,array2)))
+
+#Spliting
+"""horizontal spliting"""
+print(np.hsplit(array1,2))
+print(np.vsplit(array1,3))
