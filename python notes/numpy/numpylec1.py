@@ -133,3 +133,19 @@ print(a6[:,2])
 print(a6[1:,1:3])
 print(a6[::2,::3])
 """slicing for 3D array"""
+print(a5[::2])
+print(a5[::2,0,::2])
+
+#Iteration
+"""for 1D array"""
+for i in a1:
+    print(i)
+"""for 2D array"""
+for i in a6:
+    print(i)
+"""for 3D array"""
+for i in a5:
+    print(i)
+
+for i in np.nditer(a5):
+    print(i)
