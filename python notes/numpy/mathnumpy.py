@@ -21,5 +21,14 @@ predicted = np.random.randint(1,50,25)
 print(actual)
 print(predicted)
 
-def mse(arrays):
+def mse(actual,predicted):
         return np.mean((actual - predicted)**2)
+print(mse(actual,predicted))
+
+"""Binary cross entropy """
+
+## Working with missing values - > np.nan
+a = np.array([1,2,3,4,np.nan,6])
+print(a)
+print(np.isnan(a))
+print(a[~np.isnan(a)])
