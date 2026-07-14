@@ -29,3 +29,14 @@ print(np.unique(f))
 """np.expand_dims()"""
 print(np.expand_dims(a,axis=0))
 print(np.expand_dims(a,axis=1))
+
+"""np.where()"""
+## find all indices with value greater than 50
+print(np.where(a>50))
+
+## Replace all values > 50 with 0
+"""np.where(condition,true,false)"""
+print(np.where(a>50,0,a))
+
+## Replace all value divded by 2 with 0
+print(np.where(a%2==0,0,a))
