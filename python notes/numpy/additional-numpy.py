@@ -43,10 +43,31 @@ print(np.where(a%2==0,0,a))
 
 """np.argmax"""
 print(np.argmax(e))
-print(np.argmax(b,axis=0)) # for rows
-print(np.argmax(b,axis=1)) # for columns
+print(np.argmax(b,axis=0)) # for columns
+print(np.argmax(b,axis=1)) # for rows
 
 """np.argmin"""
 print(np.argmin(e))
 print(np.argmin(b,axis=0))
 print(np.argmin(b,axis=1))
+
+"""np.cumsum"""
+i= np.arange(7,14)
+print(i)
+print(np.cumsum(i))
+print(np.cumsum(c,axis=0))
+print(np.cumsum(c,axis=1))
+
+"""np.cumprod"""
+print(np.cumprod(i))
+print(np.cumprod(c,axis=0))
+print(np.cumprod(c,axis=1))
+
+"""np.percentile"""
+print(a)
+print(np.percentile(a,100)) # max number in array for 100 percentile
+print(np.percentile(a,0)) # min number in array for 0 percentile
+print(np.percentile(a,50))
+
+"""np.histogram"""
+print(np.histogram(a,bins=[0,10,20,30,40,50,60,70,80,90,100]))
