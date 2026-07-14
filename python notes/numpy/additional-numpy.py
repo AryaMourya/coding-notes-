@@ -40,3 +40,13 @@ print(np.where(a>50,0,a))
 
 ## Replace all value divded by 2 with 0
 print(np.where(a%2==0,0,a))
+
+"""np.argmax"""
+print(np.argmax(e))
+print(np.argmax(b,axis=0)) # for rows
+print(np.argmax(b,axis=1)) # for columns
+
+"""np.argmin"""
+print(np.argmin(e))
+print(np.argmin(b,axis=0))
+print(np.argmin(b,axis=1))
