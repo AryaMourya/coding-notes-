@@ -77,3 +77,23 @@ salary = np.array([20000,40000,25000,35000,60000])
 experience = np.array([1,3,2,4,2])
 
 print(np.corrcoef(salary,experience))
+
+""" np.isin """
+items =[10,20,30,40,50,60,70,80,90,100]
+print(np.isin(a,items))
+print(a[np.isin(a,items)])
+
+""" np.flip """
+print(np.flip(a))
+print(np.flip(c,axis=0)) # row flip
+print(np.flip(c,axis=1)) # col flip
+
+""" np.put """
+np.put(a,[0,1],[110,530])
+print(a)
+
+""" np.delete """
+print(np.delete(a,0)) 
+
+""" SET FUCTIONS """
+## np.union1d ##
