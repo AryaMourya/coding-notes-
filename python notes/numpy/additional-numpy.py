@@ -112,3 +112,5 @@ print(np.setdiff1d(g,n))
 ## np.setxor1d ## remove the common term of two array and create new array
 print(np.setxor1d(g,n))
 
+
+
