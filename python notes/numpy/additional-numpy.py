@@ -97,3 +97,18 @@ print(np.delete(a,0))
 
 """ SET FUCTIONS """
 ## np.union1d ##
+
+g = np.array([1,2,3,4,5])
+n = np.array([3,4,5,6,7])
+
+print(np.union1d(g,n))
+
+## np.intersect1d ##
+print(np.intersect1d(g,n))
+
+## np.setdiff1d ## (not common func)
+print(np.setdiff1d(g,n))
+
+## np.setxor1d ## remove the common term of two array and create new array
+print(np.setxor1d(g,n))
+
