@@ -70,4 +70,10 @@ print(np.percentile(a,0)) # min number in array for 0 percentile
 print(np.percentile(a,50))
 
 """np.histogram"""
-print(np.histogram(a,bins=[0,10,20,30,40,50,60,70,80,90,100]))
+print(np.histogram(a,bins=[0,50,100]))
+
+""" np.corrcoef """
+salary = np.array([20000,40000,25000,35000,60000])
+experience = np.array([1,3,2,4,2])
+
+print(np.corrcoef(salary,experience))
