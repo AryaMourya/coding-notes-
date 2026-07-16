@@ -38,4 +38,9 @@ print(marks_series.dtype)
 ## Name
 print(marks_series.name)
 
-## is_unique
+## is_unique """IMP"""
+print(marks_series.is_unique)
+
+print(pd.Series([1,1,2,3,4,5]).is_unique)
+
+## index ##
