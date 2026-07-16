@@ -25,5 +25,17 @@ marks ={
     'science':89,
     'hindi':100 
 }
-marks_series = pd.Series(marks)
+marks_series = pd.Series(marks,name="xyz's marks")
 print(marks_series)
+
+""" Series Attributes """
+## Size
+print(marks_series.size)
+
+## dtype
+print(marks_series.dtype)
+
+## Name
+print(marks_series.name)
+
+## is_unique
