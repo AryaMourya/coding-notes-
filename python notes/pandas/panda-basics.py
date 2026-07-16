@@ -7,7 +7,7 @@ print(pd.Series(country))
 
 """ Integers """
 runs = [11,23,50,69,78,100]
-print(pd.Series(runs))
+runs_series = pd.Series(runs)
 
 """ Custom Index """
 marks = [67,57,85,100]
@@ -44,3 +44,6 @@ print(marks_series.is_unique)
 print(pd.Series([1,1,2,3,4,5]).is_unique)
 
 ## index ##
+print(marks_series.index)
+
+## values ##
