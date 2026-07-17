@@ -54,3 +54,5 @@ print(type(runs_series.index))
 print(marks_series.values)
 
 """ Series using read_csv """
+
+## with one col
