@@ -56,3 +56,21 @@ print(marks_series.values)
 """ Series using read_csv """
 
 ## with one col
+ 
+df = pd.read_csv(r'c:\Users\lenovo\coding-notes-\python notes\cvs-file\subs.csv')
+print(type(df))
+print(df)
+subs=pd.read_csv(r'c:\Users\lenovo\coding-notes-\python notes\cvs-file\subs.csv').squeeze("columns")
+print(type(subs))
+print(subs)
+
+## with 2 cols
+second = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\kohli_ipl.csv')
+print(second)
+second_runs = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\kohli_ipl.csv',index_col='match_no').squeeze('columns')
+print(second_runs)
+
+movies = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\bollywood.csv')
+print(movies)
+movies_1 = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\bollywood.csv',index_col='movie').squeeze('columns')
+print(movies_1)
