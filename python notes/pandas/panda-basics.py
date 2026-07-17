@@ -46,4 +46,11 @@ print(pd.Series([1,1,2,3,4,5]).is_unique)
 ## index ##
 print(marks_series.index)
 
+print(runs_series.index)
+
+print(type(runs_series.index))
+
 ## values ##
+print(marks_series.values)
+
+""" Series using read_csv """
