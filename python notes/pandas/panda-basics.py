@@ -74,3 +74,13 @@ movies = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\bolly
 print(movies)
 movies_1 = pd.read_csv(r'C:\Users\lenovo\coding-notes-\python notes\cvs-file\bollywood.csv',index_col='movie').squeeze('columns')
 print(movies_1)
+
+## Series methods
+
+# head and tail
+"""head is for first x amount of data can be preview from main data set """
+print(subs.head())
+print(second_runs.head(3))
+
+"""tail is for last x amount of data can be preview from main data set """
+print(subs.tail())
