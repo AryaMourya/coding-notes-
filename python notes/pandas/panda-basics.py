@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 """ Series from lists """
 country = ['India','USA','UK','Nepal']
@@ -84,3 +85,20 @@ print(second_runs.head(3))
 
 """tail is for last x amount of data can be preview from main data set """
 print(subs.tail())
+print(second_runs.tail(5 ))
+
+# sample 
+" it select random data from the datasets and we can decide how many random "
+"""data will be
+"""
+print(movies.sample())
+print(movies.sample(5))
+
+# values_counts 
+
+print(movies.value_counts())
+
+#sort_values
+print(runs.sort_values())
+## Plotting Graphs on Series 
+
