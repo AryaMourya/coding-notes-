@@ -99,6 +99,6 @@ print(movies.sample(5))
 print(movies.value_counts())
 
 #sort_values
-print(runs.sort_values())
-## Plotting Graphs on Series 
-
+print(runs_series.sort_values())
+print(runs_series.sort_values(ascending=False))
+print(runs_series.sort_values(ascending=False).head(1).values[0])
