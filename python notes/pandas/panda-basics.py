@@ -102,3 +102,17 @@ print(movies.value_counts())
 print(runs_series.sort_values())
 print(runs_series.sort_values(ascending=False))
 print(runs_series.sort_values(ascending=False).head(1).values[0])
+
+#sort_index()
+print(movies.sort_index(inplace=True))
+
+"""Series Math Methods"""
+## count
+print(runs_series.count())
+
+## sum 
+print(subs.sum()) 
+
+## mean -> median -> mode -> std -> var
+print(subs.mean())
+print(runs_series.median())
