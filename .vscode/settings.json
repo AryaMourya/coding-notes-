@@ -2,9 +2,10 @@
     "python-envs.pythonProjects": [
         {
             "path": "python notes",
-            "envManager": "ms-python.python:venv",
+            "envManager": "ms-python.python:system",
             "packageManager": "ms-python.python:pip"
         }
     ],
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.typeCheckingMode": "off",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

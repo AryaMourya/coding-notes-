@@ -116,3 +116,48 @@ print(subs.sum())
 ## mean -> median -> mode -> std -> var
 print(subs.mean())
 print(runs_series.median())
+print(movies.mode())
+print(subs.std())
+print(runs_series.var())
+
+#MIN/Max
+print(subs.max())
+
+## describe
+print(runs_series.describe())
+
+"""Series Indexing"""
+## integer indexing 
+x = pd.Series([12,13,14,35,46,57,58])
+print(x[0])
+
+## Fancy indexing
+print(runs_series[[1,3,4,5]])
+
+"""Editing Series"""
+## using indexing
+marks_series[1] = 100
+print(marks_series)
+
+## what if an index does not exist 
+marks_series['sst'] = 90;
+print(marks_series)
+
+## using index label
+movies_1['2 States (2014 flim)'] = 'Alia Bhatt'
+print(movies_1)
+
+"""Series with Python Functionalities"""
+#len
+print(len(subs))
+print(type(subs))
+print(dir(subs))
+print(sorted(subs))
+print(max(subs))
+
+"Type conversion"
+print(list(marks_series))
+print(dict(marks_series))
+
+# membership operator
+print('2 States (2014 flim)' in movies_1)
