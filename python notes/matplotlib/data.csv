@@ -1,0 +1,13 @@
+Month,Sales_Units,Profit,Marketing_Spend,Product_Category
+Jan,2500,5200,1200,Electronics
+Feb,2700,5500,1300,Electronics
+Mar,3100,6400,1600,Electronics
+Apr,4200,8800,2500,Clothing
+May,3900,8100,2100,Clothing
+Jun,4500,9300,2600,Clothing
+Jul,4800,10100,3000,Home-Decor
+Aug,4700,9900,2900,Home-Decor
+Sep,5100,10800,3200,Home-Decor
+Oct,5500,11400,3500,Electronics
+Nov,6200,13200,4300,Electronics
+Dec,7500,15800,5500,Electronics
